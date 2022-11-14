@@ -2,7 +2,7 @@
 #define PIN_LIGHT_SENSOR  2  /* ESP32 pin GPIO2 (ADC2_2)*/
 #define LED_PIN           22  /* ESP32 pin GPIO22*/
 #define uS_TO_S_FACTOR 1000000ULL  /* Fator de conversão de micro segundos para segundos */
-#define TIME_TO_SLEEP  5        /* Tempo que o ESP32 vai dormir: 5 min (em segundos) */
+#define TIME_TO_SLEEP  300        /* Tempo que o ESP32 vai dormir: 5 min (em segundos) */
 
 /* leitura e escrita em cartões SD */
 #include "FS.h"
